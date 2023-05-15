@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>benefit</title>
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    
+    <!-- jquery - gnb  -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/reposive.css">
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+     <!-- 모바일메뉴버튼 -->
+     <a href="#" class="mb-bt" id="mb-bt">
+        <span class="line"></span>
+    </a>
+    <!-- 모바일메뉴바 -->
+    <div class="mb-nav">
+        <div class="mb-nav-top clear">
+                <a href="#">Login</a>
+                <a href="#">Find a Store</a>
+        </div>
+        <div class="mb-nav-main">
+            <ul class="mb-menu">
+                <li>
+                    <a href="#" class="mb-mainmenu">GO SHOPPING<i class="fa-solid fa-plus"></i></a>
+                    <ul class="mb-submenu">
+                        <li><a href="#">Brows</a></li>
+                        <li><a href="#">Face</a></li>
+                        <li><a href="#">Eyes</a></li>
+                        <li><a href="#">Lips</a></li>
+                        <li><a href="#">Pore care</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </li>
+                <li>
+                        <a href="#" class="mb-mainmenu">BEST</a>
+                </li>
+                <li>
+                        <a href="#" class="mb-mainmenu">SERVICE</a>
+                </li>
+                <li>
+                        <a href="#" class="mb-mainmenu">EVENT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 모바일 메뉴마스크 -->
+    <div class="mb-menu-mask"></div>
+    <!-- 반응형 헤더 영역 -->
+    <div class="mb-header ">
+        <div class="mini-logo">
+            <a href="#">
+                
+            </a>
+        </div>
+    </div> 
+       
+
+    <!-- header  -->
+    <header class="header">
+        <div class="gnb_bg"></div>
+        <div class="inner">
+            <h1 class="logo">
+                <a href="#">
+                    <img src="images/logo/logo.png" alt="로고" />
+                </a>
+            </h1>
+            <nav class="gnb">
+                <ul class="depth1">
+                    <li class="main_menu">
+                        <a href="#">GO SHOPPING</a>
+                        <ul class="depth2">
+                            <li>
+                                <a href="#">All product</a>
+                                <span></span>
+                            </li>
+                            <li>
+                                <a href="#">Brows</a>
+                                <ul class="depth3">
+                                    <li><a href="#">Brow Gel</a></li>
+                                    <li><a href="#">Brow Pencil</a></li>
+                                    <li>
+                                        <a href="#">Brow Tools & Kits</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Face</a>
+                                <ul class="depth3">
+                                    <li><a href="#">Blush</a></li>
+                                    <li><a href="#">Bronzer</a></li>
+                                    <li><a href="#">Cheek Stain</a></li>
+                                    <li><a href="#">Face Primer</a></li>
+                                    <li><a href="#">Foundation</a></li>
+                                    <li><a href="#">Highlighter</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Eyes</a>
+                                <ul class="depth3">
+                                    <li><a href="#">Mascara</a></li>
+                                    <li><a href="#">Eyeliner</a></li>
+                                    <li><a href="#">Eyeshadow</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Lips</a>
+                                <ul class="depth3">
+                                    <li><a href="#">Lip Stain</a></li>
+                                    <li><a href="#">Lip Balm</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Pore care</a>
+                                <ul class="depth3">
+                                    <li><a href="#">Cleanser</a></li>
+                                    <li><a href="#">Toner</a></li>
+                                    <li><a href="#">Face Mask</a></li>
+                                    <li><a href="#">Moisturizer</a></li>
+                                    <li><a href="#">Face Primer</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Accessories</a>
+                                <ul class="depth3">
+                                    <li><a href="#">Tools & Brushes</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="main_menu"><a href="#">BEST</a></li>
+                    <li class="main_menu"><a href="#">SERVICE</a></li>
+                    <li class="main_menu"><a href="#">EVENT</a></li>
+                </ul>
+            </nav>
+            <div class="etc">
+                <a href="#">FIND A STORE</a>
+                <a href="#">SIGN IN</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- visual - banner -->
+        <section id="main-visual">
+            <div class="visual">
+                <div class="container">
+                    <div class="swiper viausl_Swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img class="banner-bg" src="images/banner/banner2-3.png" alt="메인배너1">
+                                    <img class="small-bn" src="images/banner1.png" alt="배너이미지">
+                                </a>
+                                <h2 class="title">STORY <br>OF <br>THE <br> NEW</h2>
+                                <h2 class="mb-title">STORY OF THE NEW</h2>
+                                <div class="content">
+                                    <div class="sub_tt">
+                                        <h3>NEW Pore care!</h3>
+                                        <!-- <p>Say hello to a full collection of high-performance,<br> pore-positive solutions specifically developed <br> to visibly minimize, clear, and smooth pores.</p> -->
+                                        <p>We believe that healthy pores = healthier-looking skin. That's why we're
+                                            doing MORE for them. More caring. Less hating. Because when you do more for
+                                            your pores, you'll see more from your skin. Ready to make some PORE
+                                            decisions? We're here to help.</p>
+                                    </div>
+                                    <div class="button button-3d--1">
+                                        <div class="front__1">SHOP NOW</div>
+                                        <div class="back__1">SHOP NOW</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img class="banner-bg" src="images/banner/banner1-1.png" alt="메인배너2">
+                                    <img class="small-bn" src="images/banner2.png" alt="배너이미지">
+                                </a>
+                                <h2 class="title">BUILD<br>YOUR<br>OWN<br>SET</h2>
+                                <h2 class="mb-title">BUILD YOUR OWN SET</h2>
+                                <div class="content">
+                                    <div class="sub_tt">
+                                        <h3>CODE : SETBUILDER</h3>
+                                        <p>Save on our bestsellers!
+
+                                            Pick three of our most iconic products for only $79 and get up to 36% off.
+                                            Get a free mini of your choice and exclusive benefit bag!
+
+                                            (Promotion will only apply when all 4 items are added to cart)</p>
+                                    </div>
+                                    <div class="button button-3d--1">
+                                        <div class="front__1">SHOP NOW</div>
+                                        <div class="back__1">SHOP NOW</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-visual">
+                <div class="container">
+                    <div class="swiper viausl_Swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="images/moblie/benefit-mb2.png" alt="메인배너1">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#"><img src="images/moblie/benefit-mb.png" alt="메인배너2"></a>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="brow">
+            <div class="brow">
+                <div class="inner">
+                    <div class="contents">
+                        <div class="margin-top">
+                            <div class="tit-wrapper">
+                                <h3>#1BROW BRAND WORLDWIDE*</h3>
+                                <h2>Love your brows</h2>
+                            </div>
+                            <p>Since 1976, brows have kinda been... </p>
+                            <p>our thing. No matter who you are,</p>
+                            <p>the brows you have or the brows you want,</p>
+                            <p>we’ve got everything you need to love your brows!</p>
+                            <div class="button button-3d--1">
+                                <div class="front__1 pink">More Brows</div>
+                                <div class="back__1 white">More Brows</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brow-boxs">
+                        <div class="box box1">
+                            <div class="boxwrap">
+                                <div class="brow-info">
+                                    <p>배네피트<br>24-아워 브로우 세터 젤</p>
+                                    <p>Clear eyebrow gel with lamination effect</p>
+                                    <p>￦ 37,000</p>
+                                    <p>Type:Gel</p>
+                                    <button>Shop now</button>
+                                </div>
+                                <div class="img-wrap">
+                                    <img src="images/items/brow1-1.png" alt="브로우배경이미지">
+                                </div>
+                                <a href="#" class="plus" id="plus">
+                                    <span class="w-15px"></span>
+                                    <span class="h-15px"></span>
+                                </a>
+                            </div>
+                            <img class="tape1" src="images/items/tape1-1.png" alt="마스킹테이프">
+                        </div>
+                        <div class="box box2">
+                            <div class="boxwrap">
+                                <div class="brow-info">
+                                    <p>배네피트<br>구프 프루프 브로우펜슬</p>
+                                    <p>Super easy brow-filling & shaping pencil</p>
+                                    <p>￦ 40,000</p>
+                                    <p>Type:Pencil</p>
+                                    <button>Shop now</button>
+                                </div>
+                                <div class="img-wrap">
+                                    <img src="images/items/brow2-2.png" alt="구프프루프펜슬">
+                                </div>
+                                <a href="#" class="plus" id="plus">
+                                    <span class="w-15px"></span>
+                                    <span class="h-15px"></span>
+                                </a>
+                            </div>
+                            <img class="tape1" src="images/items/tape1-1.png" alt="마스킹테이프">
+                        </div>
+                        <div class="box box3">
+                            <div class="boxwrap">
+                                <div class="brow-info">
+                                    <p>배네피트<br>포우마드 브로우 포마드</p>
+                                    <p>Full-pigment brow pomade</p>
+                                    <p>￦ 38,000</p>
+                                    <p>Type:Gel</p>
+                                    <button>Shop now</button>
+                                </div>
+                                <div class="img-wrap">
+                                    <img src="images/items/brow3-3.png" alt="브로우배경이미지">
+                                </div>
+                                <a href="#" class="plus" id="plus">
+                                    <span class="w-15px"></span>
+                                    <span class="h-15px"></span>
+                                </a>
+                            </div>
+                            <img class="tape1" src="images/items/tape1-1.png" alt="마스킹테이프">
+                        </div>
+                        <div class="box box4">
+                            <div class="boxwrap">
+                                <div class="brow-info">
+                                    <p>배네피트<br>브로우 마이크로필링 펜</p>
+                                    <p>Eyebrow pen for microfine</p>
+                                    <p>￦ 39,000</p>
+                                    <p>Type:Pen</p>
+                                    <button>Shop now</button>
+                                </div>
+                                <div class="img-wrap">
+                                    <img src="images/items/brow4-4.png" alt="브로우배경이미지">
+                                </div>
+                                <a href="#" class="plus" id="plus">
+                                    <span class="w-15px"></span>
+                                    <span class="h-15px"></span>
+                                </a>
+                            </div>
+                            <img class="tape1" src="images/items/tape1-1.png" alt="마스킹테이프">
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="mb-brow">
+                <div class="brow-boxs">
+                    <div class="box1 box-gong">
+                        <div class="box">
+                            <div class="more">
+                                <p>Bset Brow!</p>
+                                <a href="#">24아워브로우젤</a>
+                                <a href="#">구프프루프펜슬</a>
+                                <a href="#">포우마드 브로우</a>
+                                <a href="#">마이크로필링펜</a>
+                            </div>
+                            <a href="#" class="img-wrap">
+                                <img src="images/touts-goof-proof.png" alt="브로우이미지">
+                            </a>
+                            <a href="#" class="btn" id="btn">
+                                <span class="w-15px"></span>
+                                <span class="h-15px"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <img class= "tape" src="images/moblie/tape.png" alt="테이프모양이미지">
+                </div>
+            </div>
+        </section>
+        <section id="bestitems">
+            <div class="best">
+                <div class="tab">
+                    <div class="bg-yellow">
+                        <ul class="tabs-nav">
+                            <div class="flex1">
+                                <li class="h ma">
+                                    <a href="#mascara">
+                                        <img src="images/items/mascara_box.jpg.png" alt="마스카라 이미지">
+                                        <div class="side">
+                                            <div class="menu-title">MASCARA</div>
+                                            <div class="sub-title">curling & lengthening</div>
+                                        </div>
+                                        <div class="bottom">
+                                            <p class="tip">Beauty Tip</p>
+                                            <span style="background-color: #7f7f7f;"></span>
+                                            <p class="desc">
+                                                To boost lash volume & length,
+                                                start with Benefit's They're Real
+                                                Tinted Lash Primer!
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="w bl">
+                                    <a href="#blush">
+                                        <img src="images/items/blush_box.png" alt="블러쉬이미지">
+                                        <div class="right-side">
+                                            <div class="menu-title">BLUSH</div>
+                                            <div class="sub-title">Silky-soft powder blush</div>
+                                        </div>
+                                        <div class="right-bottom">
+                                            <p class="tip">Beauty Tip</p>
+                                            <span style="background-color:#f2adc0 ;"></span>
+                                            <p class="desc">
+                                                Pairs perfectly with Benefit’s<br>
+                                                Multitasking Cheek Brush<br>
+                                                (sold separately)!
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="flex2">
+                                <li class="w lip clear">
+                                    <a href="#lip">
+                                        <img src="images/items/lip_box.png" alt="립이미지">
+                                        <div class="right-side">
+                                            <div class="menu-title">CHEEK & LIP</div>
+                                            <div class="sub-title">Smudge-proof</div>
+                                        </div>
+                                        <div class="right-bottom">
+                                            <p class="tip">Beauty Tip</p>
+                                            <span style="background-color: #ef3737;"></span>
+                                            <p class="desc">
+                                                Wear Benetint under lipstick or<br>
+                                                gloss.For full lips, outline, then fill in.<br>
+                                                Layer to build intensity.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="h con">
+                                    <a href="#concealer">
+                                        <img src="images/items/concealer_box.png" alt="컨실러 이미지">
+                                        <div class="side">
+                                            <div class="menu-title">CONCEALER</div>
+                                            <div class="sub-title">Brightening on </div>
+                                        </div>
+                                        <div class="bottom">
+                                            <p class="tip">Beauty Tip</p>
+                                            <span style="background-color: #ba7c49;"></span>
+                                            <p class="desc">
+                                                Dot&blend Bright On Concealer
+                                                on cheekbones & bridge of nose
+                                                for a brightening boost!
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tabmenu">
+                    <h2>LOVELY BEAUTY<br>BEST ITEM</h2>
+                    <div class="tabs-panel" id="mascara">
+                        <div class="mascara1">
+                            <div class="image-wrapper">
+                                <img src="images/items/mascara1.png" alt="배드갤뱅볼륨마스카라">
+                            </div>
+                            <div class="content">
+                                <div>
+                                    <p>배드갤 뱅 볼륨마스카라</p>
+                                    <p>￦40,000</p>
+                                    <button>SHOP NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mascara2">
+                            <div class="image-wrapper">
+                                <img src="images/items/mascara2.png" alt="데아리얼마그넷마스카라">
+                            </div>
+                            <div class="content">
+                                <div class="container">
+                                    <p>데아 리얼 마그넷 마스카라</p>
+                                    <p>￦24,000</p>
+                                    <button>SHOP NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mascara3">
+                            <div class="image-wrapper">
+                                <img src="images/items/mascara3.png" alt="롤러래시마스카라">
+                            </div>
+                            <div class="content">
+                                <div class="container">
+                                    <p>롤러 래시 마스카라</p>
+                                    <p>￦37,000</p>
+                                    <button>SHOP NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs-panel" id="lip">
+                        <div class="lip1">
+                            <div class="image-wrapper">
+                                <img src="images/items/lip1.png" alt="lovetint">
+                            </div>
+                            <div class="content">
+                                <div>
+                                    <p>러브틴트</p>
+                                    <p>￦29,000</p>
+                                </div>
+                                <button>SHOP NOW</button>
+                            </div>
+                        </div>
+                        <div class="lip2">
+                            <div class="image-wrapper">
+                                <img src="images/items/lip2.png" alt="gogotint">
+                            </div>
+                            <div class="content">
+                                <div class="container">
+                                    <p>고고틴트</p>
+                                    <p>￦29,000</p>
+                                    <button>SHOP NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lip3">
+                            <div class="image-wrapper">
+                                <img src="images/items/lip3.png" alt="chachatint">
+                            </div>
+                            <div class="content">
+                                <div class="container">
+                                    <p>차차틴트</p>
+                                    <p>￦29,000</p>
+                                    <button>SHOP NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs-panel" id="blush">
+                        <div class="blush1">
+                            <div class="image-wrapper">
+                                <img src="images/items/blush1.png" alt="Golden Peach Blush">
+                            </div>
+                            <div class="content">
+                                <div>
+                                    <p>골든 피치 블러쉬</p>
+                                    <p>￦43,000</p>
+                                    <button>SHOP NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blush2">
+                            <div class="image-wrapper">
+                                <img src="images/items/blush2.png" alt="Warm-Seashell Pink Blush">
+                            </div>
+                            <div class="content">
+                                <div class="container">
+                                    <p>웜 씨쉘 핑크 블러쉬</p>
+                                    <p>￦43,000</p>
+                                    <button>SHOP NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blush3">
+                            <div class="image-wrapper">
+                                <img src="images/items/blush3.png" alt="Willa Soft Neutral-Rose Blush">
+                            </div>
+                            <div class="content">
+                                <div class="container">
+                                    <p>윌라네츄럴로즈블러쉬</p>
+                                    <p>￦43,000</p>
+                                    <button>SHOP NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs-panel" id="concealer">
+                        <div class="concealer1">
+                            <div class="image-wrapper">
+                                <img src="images/items/concealer1-1.png" alt="컨실러">
+                            </div>
+                            <div class="content">
+                                <div>
+                                    <p>보잉 케이크리스 컨실러</p>
+                                    <p>￦36,000</p>
+                                    <button>SHOP NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="concealer2">
+                            <div class="image-wrapper">
+                                <img src="images/items/concealer2-2.png" alt="데아리얼마그넷마스카라">
+                            </div>
+                            <div class="content">
+                                <div class="container">
+                                    <p>보잉 인더스트리얼 컨실러</p>
+                                    <p>￦36,000</p>
+                                    <button>SHOP NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="concealer3">
+                            <div class="image-wrapper">
+                                <img src="images/items/concealer3.png" alt="Boi-ing Bright On Concealer">
+                            </div>
+                            <div class="content">
+                                <div class="container">
+                                    <p>보잉 브라이트 컨실러</p>
+                                    <p>￦37,000</p>
+                                    <button>SHOP NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="break_point-best">
+                <img class="bg" src="images/yellow-bg.png" alt="노랑삼각형 배경이미지">
+                <div class="container">
+                    <div class="tab-wrap">
+                        <ul class="mb-tabs">
+                            <li>
+                                <a href="#mascara1">MASCARA
+                                    <img src="images/items/mb-mascara.png" alt="마스카라 카드">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#lip1">LIP
+                                    <img src="images/items/mb-lip.png" alt="립 카드">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#blush1">BLUSH
+                                    <img src="images/items/mb-blush.png" alt="블러쉬 카드">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#concealer1">CONCEALER
+                                    <img src="images/items/mb-concealer.png" alt="컨실러 카드">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mb-tabmenu">
+                        <h2>LOVELY BEAUTY<br>BEST ITEM</h2>
+                        <div class="mb-tab-panel" id="mascara1">
+                            <div class="mascara1">
+                                <div class="image-wrapper">
+                                    <img src="images/items/mascara1.png" alt="배드갤뱅볼륨마스카라">
+                                </div>
+                                <div class="content">
+                                    <div>
+                                        <p>배드갤 뱅 볼륨마스카라</p>
+                                        <p>￦40,000</p>
+                                        <button>SHOP NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mascara2">
+                                <div class="image-wrapper">
+                                    <img src="images/items/mascara2.png" alt="데아리얼마그넷마스카라">
+                                </div>
+                                <div class="content">
+                                    <div >
+                                        <p>데아리얼 마스카라</p>
+                                        <p>￦24,000</p>
+                                        <button>SHOP NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mascara3">
+                                <div class="image-wrapper">
+                                    <img src="images/items/mascara3.png" alt="롤러래시마스카라">
+                                </div>
+                                <div class="content">
+                                    <div>
+                                        <p>롤러 래시 마스카라</p>
+                                        <p>￦37,000</p>
+                                        <button>SHOP NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-tab-panel" id="lip1">
+                            <div class="lip1">
+                                <div class="image-wrapper">
+                                    <img src="images/items/lip1.png" alt="lovetint">
+                                </div>
+                                <div class="content">
+                                    <div>
+                                        <p>러브틴트</p>
+                                        <p>￦29,000</p>
+                                    </div>
+                                    <button>SHOP NOW</button>
+                                </div>
+                            </div>
+                            <div class="lip2">
+                                <div class="image-wrapper">
+                                    <img src="images/items/lip2.png" alt="gogotint">
+                                </div>
+                                <div class="content">
+                                    <div>
+                                        <p>고고틴트</p>
+                                        <p>￦29,000</p>
+                                        <button>SHOP NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lip3">
+                                <div class="image-wrapper">
+                                    <img src="images/items/lip3.png" alt="chachatint">
+                                </div>
+                                <div class="content">
+                                    <div >
+                                        <p>차차틴트</p>
+                                        <p>￦29,000</p>
+                                        <button>SHOP NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-tab-panel" id="blush1">
+                            <div class="blush1">
+                                <div class="image-wrapper">
+                                    <img src="images/items/blush1.png" alt="Golden Peach Blush">
+                                </div>
+                                <div class="content">
+                                    <div>
+                                        <p>골든 피치 블러쉬</p>
+                                        <p>￦43,000</p>
+                                        <button>SHOP NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blush2">
+                                <div class="image-wrapper">
+                                    <img src="images/items/blush2.png" alt="Warm-Seashell Pink Blush">
+                                </div>
+                                <div class="content">
+                                    <div>
+                                        <p>웜 씨쉘 핑크 블러쉬</p>
+                                        <p>￦43,000</p>
+                                        <button>SHOP NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blush3">
+                                <div class="image-wrapper">
+                                    <img src="images/items/blush3.png" alt="Willa Soft Neutral-Rose Blush">
+                                </div>
+                                <div class="content">
+                                    <div>
+                                        <p>윌라네츄럴로즈블러쉬</p>
+                                        <p>￦43,000</p>
+                                        <button>SHOP NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-tab-panel" id="concealer1">
+                            <div class="concealer1">
+                                <div class="image-wrapper">
+                                    <img src="images/items/concealer1.png" alt="컨실러">
+                                </div>
+                                <div class="content">
+                                    <div>
+                                        <p>보잉 케이크리스 컨실러</p>
+                                        <p>￦36,000</p>
+                                        <button>SHOP NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="concealer2">
+                                <div class="image-wrapper">
+                                    <img src="images/items/concealer2.png" alt="데아리얼마그넷마스카라">
+                                </div>
+                                <div class="content">
+                                    <div>
+                                        <p>보잉 인더스트리얼 컨실러</p>
+                                        <p>￦36,000</p>
+                                        <button>SHOP NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="concealer3">
+                                <div class="image-wrapper">
+                                    <img src="images/items/concealer3.png" alt="Boi-ing Bright On Concealer">
+                                </div>
+                                <div class="content">
+                                    <div>
+                                        <p>보잉 브라이트 컨실러</p>
+                                        <p>￦37,000</p>
+                                        <button>SHOP NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab_cont">
+                        <h2>LOVELY BEAUTY<br>BEST ITEM</h2>
+                        <div class="on tabname">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img class="w-80" src="images/items/mascara1.png" alt="마스카라1">
+                                            <p>배드갤 뱅 볼륨마스카라
+                                            <br>￦40,000</p>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img class="w-80" src="images/items/mascara2.png" alt="마스카라2">
+                                            <p>데아 리얼 마그넷 마스카라<br>￦24,000</p>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img class="w-80" src="images/items/mascara3.png" alt="마스카라">
+                                            <p>롤러 래시 마스카라
+                                            <br>￦37,000</p>
+                                        </a>
+                                    </div>
+                                  
+
+                                </div>
+                                <div class="swiper-button-next">
+                                    <a href="#"><img src="images/next-bt.png" alt=""></a>
+                                </div>
+                                <div class="swiper-button-prev">
+                                    <a href="#"><img src="images/next-bt.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabname">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="images/items/lip1.png" alt="립1">
+                                            <p>러브틴트
+                                                <br>￦29,000</p>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="images/items/lip2.png" alt="립2">
+                                            <p>고고틴트
+                                                <br>￦29,000</p>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="images/items/lip3.png" alt="립3">
+                                            <p>차차틴트
+                                                <br>￦29,000</p>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-button-next">
+                                    <a href="#"><img src="images/next-bt.png" alt=""></a>
+                                </div>
+                                <div class="swiper-button-prev">
+                                    <a href="#"><img src="images/next-bt.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabname">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="images/items/blush1.png" alt="블러쉬1">
+                                            <p>골든피치 블러쉬
+                                                <br>￦43,000</p>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="images/items/blush2.png" alt="블러쉬2">
+                                            <p>웜씨셀핑크 블러쉬
+                                                <br>￦43,000</p>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="images/items/blush3.png" alt="블러쉬3">
+                                            <p>윌라네츄럴로즈 블러쉬
+                                                <br>￦43,000</p>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-button-next">
+                                    <a href="#"><img src="images/next-bt.png" alt=""></a>
+                                </div>
+                                <div class="swiper-button-prev">
+                                    <a href="#"><img src="images/next-bt.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabname">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img class="w-80" src="images/items/concealer1.png" alt="컨실러1">
+                                            <p>보잉 케이크리스 컨실러
+                                                <br>￦36,000</p>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img class="w-80" src="images/items/concealer2.png" alt="컨실러2">
+                                            <p>보잉 인더스트리얼 컨실러
+                                                <br>￦36,000</p>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img class="w-80" src="images/items/concealer3.png" alt="컨실러3">
+                                            <p>보잉 브라이트 컨실러
+                                                <br>￦37,000</p>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-button-next">
+                                    <a href="#"><img src="images/next-bt.png" alt=""></a>
+                                </div>
+                                <div class="swiper-button-prev">
+                                    <a href="#"><img src="images/next-bt.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="primers">
+            <div class="primers">
+                <div class="pink-bg">
+                    <img src="images/pink-bg2.png" alt="핑크배경이미지">
+                </div>
+                <div class="inner">
+                    <div class="left-content">
+                        <img src="images/primer-img.png" alt="프라이머사람이미지">
+                    </div>
+                    
+                    <div class="right-content">
+                        <h2>POREFESSIONAL PRIMERS</h2>
+                        <p>From priming and setting<br>
+                            to blurring pores & locking on makeup,<br>
+                            The POREfessionals do it all!<br>
+                            Check our newest primer: POREfessional Lite!
+                        </p>
+                        <div class="button button-3d--1">
+                            <div class="front__1 pink">SHOP NOW</div>
+                            <div class="back__1 white">SHOP NOW</div>
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="images/primers.png" alt="프라이머이미지">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="inner">
+                    <div class="wrapper">
+                        <a href="#">
+                            <img src="images/footer-logo.png" alt="로고">
+                        </a>
+                        <div class="story">
+                            <a href="#">베네피트 스토리</a>
+                            <a href="#">채용정보</a>
+                        </div>
+                        <div class="form">
+                            <input type="text" placeholder="Email">
+                            <button>Join</button>
+                            <p>
+                                Benefit Cosmetics is the processing controller of your data. The information you
+                                provide is to send communications about Benefit Cosmetics offers, news and
+                                events. Your data will be shared with Benefit Cosmetics if you have expressed
+                                your wish to receive Beauty news. For more information about the processing of
+                                your personal data and to know your rights, please consult our Privacy Policy.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="policy">
+                        <p>©2021, Benefit Cosmetics LLC</p>
+                        <span>개인정보 처리방침</span>
+                        <span>Terms & Conditions</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>
